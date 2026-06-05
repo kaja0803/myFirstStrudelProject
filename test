@@ -1,14 +1,11 @@
-s("bd sd [~ bd] sd,hh*16, misc") 
+sound("hh hh hh, bd [bd, casio]")
+sound("hh hh hh, bd bd, - casio")
+Te zapisy są równoważne, bo pierwszy cykl dzielimy na trzy miary a drugi na dwie, przy czym dźwięki hh bd są w różnych liniach i trzy dźwięki hh znajdują się w jednym cyklu, a dwie miary bd + równolegle pauza i casio też znajdują się w jednym cyklu. 
 
-sound("bd [hh hh] rim hh*3 bd [- hh*2] rim hh*2") 
-
-
-sound("bd [hh hh] rim hh*3 bd [- [hh hh]] rim hh*2") ??
-
-
-sound("bd [hh hh] rim hh*3 bd [- [hh - hh]] rim hh*2") ??
-
-sound("bd [hh hh] rim hh*3 bd [- hh*2] rim hh*2") 
-
-moja pierwsza zmiana na longinusa
-something 
+---------------------------------------------
+|      HH     |      HH      |      HH      |
+--------------------------------------------- 
+|          BD         |         BD          |
+---------------------------------------------
+|           -         |        casio        |
+---------------------------------------------
