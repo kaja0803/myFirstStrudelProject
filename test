@@ -11,3 +11,5 @@ Te zapisy są równoważne, bo pierwszy cykl dzielimy na trzy miary a drugi na d
 ---------------------------------------------
 
 note("c# d3 d4 f# b d3 d# e3 e4 g b e3").sound("piano")
+note("<[36 48]*4 [34 46]*4 [41 53]*4 [[39 51]*2 [38 50]*2]>")
+.sound("piano")
