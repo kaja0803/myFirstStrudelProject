@@ -10,4 +10,4 @@ Te zapisy są równoważne, bo pierwszy cykl dzielimy na trzy miary a drugi na d
 |           -         |        casio        |
 ---------------------------------------------
 
-teraz cos dodajemy
+note("c# d3 d4 f# b d3 d# e3 e4 g b e3").sound("piano")
