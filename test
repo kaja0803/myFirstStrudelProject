@@ -42,3 +42,13 @@ $: note(" [d1] [f#2, b2]").sound("piano")
 
 $: note("[c# d3 d4 f# b d3 d# e3  e4 f#3 b3 e3]").sound("piano")
 $: note("[d1] [f#2, b2]@2 [c#1] [g2, b2]@2").sound("piano")
+
+const a="piano"
+const b="jazz"
+const c=b
+setcpm(20)
+$: note("[~ ~ ~ ~ b d3 d# e3 ~ ~ ~ ~]").sound(b)
+$: note("[d2] [f#2, b2]@2 [c#2] [g2, b2]@2").sound(a)
+$: note("[c# d3 d4 f# ~ ~ ~ ~ ~ ~ ~ ~]").sound(b)
+$: note("[~ ~ ~ ~ ~ ~ ~ ~  e4 g3 b3 e3]").sound(c)
+
