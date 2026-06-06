@@ -13,3 +13,26 @@ Te zapisy są równoważne, bo pierwszy cykl dzielimy na trzy miary a drugi na d
 note("c# d3 d4 f# b d3 d# e3 e4 g b e3").sound("piano")
 note("<[36 48]*4 [34 46]*4 [41 53]*4 [[39 51]*2 [38 50]*2]>")
 .sound("piano")
+
+
+$: note("[ d3*2 [<[d3,a3,f4]!2 [d3,bb3,g4]!2> ~] ]*2")
+
+[a b]
+
+[ d3*2 [<[d3,a3,f4]!2 [d3,bb3,g4]!2> ~]]
+
+a = d3*2 - 1/2 cyklu (1 sek.)
+
+b = [<[d3,a3,f4]!2 [d3,bb3,g4]!2> ~] - 1/2 cyklu (1 sek.)
+
+<[d3,a3,f4]!2 [d3,bb3,g4]!2> ~ 
+to co w trójkątnych nawiasach = 1/4 cyklu 
+pauza '~' = 1/4 cyklu 
+
+<[d3,a3,f4]!2 [d3,bb3,g4]!2>
+
+<a1 b1> => a1 to jest 1 cykl, pozniej b1 to TEŻ jest 1 cykl 
+
+$: n("[0 [~ 0] 4 [3 2] [0 ~] [0 ~] <0 2> ~]/2") 
+
+[a b c d e f g h]
