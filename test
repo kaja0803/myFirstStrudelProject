@@ -52,3 +52,7 @@ $: note("[d2] [f#2, b2]@2 [c#2] [g2, b2]@2").sound(a)
 $: note("[c# d3 d4 f# ~ ~ ~ ~ ~ ~ ~ ~]").sound(b)
 $: note("[~ ~ ~ ~ ~ ~ ~ ~  e4 g3 b3 e3]").sound(c)
 
+setcpm(45/3)
+$: note("[c# d3 d4 f# b d3 d# e3 e4 g3 b3 e3] [f f#3 f#4 bb3 db4 f#3 bb b b4 d4 gb4 b3]").sound("piano")
+$: note("[d2] [f#2, b2]@2 [c#2] [g2, b2]@2 [gb2] [bb2, e3]@2 [b2] [d3, f#3]@2").sound("piano")
+
